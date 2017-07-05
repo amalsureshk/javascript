@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function fav()
+	{
+	var e=document.getElementById("welcome");
+	var f=document.getElementById("a").value;
+	var g=document.getElementById("b").value;
+	var h=document.getElementById("c").value;
+	var i=document.getElementById("d").value;
+	e.innerHTML="welcome"+f+" "+g+". my emailid is "+h+ " "+i;	
+	
+    }
+	</script>
+</head>
+<body>
+
+<form name="afg" action="" method="get">
+	firstname: <input type="text" id="a"><br>
+	secondname:<input type="text" id="b"><br>
+	emailid:<input type="text" id="c"><br>
+	password:<input type="password" id="d"><br>
+	<input type="button" value="login" onclick="fav();">
+</form>
+	<p id="welcome"></p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function login()
+		{
+		
+			var a=document.getElementById("f").value;
+			var b=document.getElementById("g").value;
+			if((a=="admin")&&(b=="admin123"))
+			{
+
+			document.write("Login Successfull");
+		     }
+		else{
+			
+			document.write("invalid login credentials");
+		    }
+	    }
+
+		
+	</script>
+</head>
+<body>
+<form name="form_reg" action="" method="get">
+	username:<input type="text" name="username" id="f">
+	password:<input type="password" name="password" id="g">
+	<input type="button" value="login"  onclick="login();">
+</form>
+
+</body>
+</html>

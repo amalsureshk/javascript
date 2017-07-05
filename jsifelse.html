@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var mark=new Array(90,85,80,73,95),per,total;
+		total=mark[0]+mark[1]+mark[2]+mark[3]+mark[4];
+		per=total/5;
+		document.write("percentage of mark:"+per+"<br>");
+		if(per>=60)
+		{
+			alert("he has passed the examination");
+		}
+		else if(per<60)
+		{
+			alert("he has failed the examination");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+<!-- <html>
+<head>
+    <title></title>
+</head>
+<body onload="input()">
+    <script type="text/javascript">
+        var name=new Array(5);
+        var roll=new Array(5);
+        var m1=new Array(5);
+        var m2=new Array(5);
+        var m3=new Array(5);
+        var total=new Array(5);
+        var avg=new Array(5);
+        var i=1;
+    </script>
+    <script type="text/javascript">
+        function  A()
+        {
+            m1[i]=parseInt(document.getElementById('m1').value);
+            m2[i]=parseInt(document.getElementById('m2').value);
+            m3[i]=parseInt(document.getElementById('m3').value);
+            avg[i]=(m1[i]+m2[i]+m3[i])/3;
+            total[i]=(m1[i]+m2[i]+m3[i]);
+            var mark="Avg="+avg[i]+"<br> Total="+total[i];
+            document.getElementById("1").innerHTML=mark;
+            i++;
+        }
+    </script>      
+    <script>   
+        function input()
+        {
+            document.write(" <form name='stud'> ");
+            document.write(" Enter Name  :<input type='text' name='name'><br>");
+            document.write(" Enter RollNo:<input type='number' name='no'><br>");
+            document.write(" Enter mark 1:<input type='number' name='m1' id='m1'><br>");
+            document.write(" Enter mark 2:<input type='number' name='m2' id='m2'><br>");
+            document.write(" Enter mark 3:<input type='number' name='m3' id='m3'><br>");
+
+            document.write("<input type='button' value='calculate' onclick='A();'>");
+            document.write(" <br>");
+
+            document.write("<input type='button' value='Enter For Next Student' onclick='input()'>");
+            document.write(" <br><p id='1'></p>   ");  
+            if(avg>60)
+            {
+            	document.write("passed examination");
+            }
+        }
+    </script>       
+</body> -->

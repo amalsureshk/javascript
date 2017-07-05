@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function fa()
+		{
+         if(document.getElementById("a").value =='')
+         {
+    
+
+         	document.getElementById("err1").innerHTML="please enter name";
+         }	
+           if(document.getElementById("b").value =='')
+         {
+    
+         	document.getElementById("err2").innerHTML="please enter address";
+         }	
+           if(document.getElementById("c").value =='')
+         {
+    
+
+         	document.getElementById("err3").innerHTML="enter Emailid";
+         }	
+           if(document.getElementById("d").value =='')
+         {
+    
+
+         	document.getElementById("err4").innerHTML=" enter mobileno";
+         }	
+           if(document.getElementById("e").value =='')
+         {
+    
+
+         	document.getElementById("err5").innerHTML=" enter password";
+         }	
+           if(document.getElementById("f").value =='')
+         {
+    
+         	document.getElementById("err6").innerHTML="reenter password";
+         }	
+     }
+
+	</script>
+	<style type="text/css">
+		#a
+		{
+			margin-left: 405px;
+			
+		}
+		#b
+		{
+			margin-left: 405px;
+
+			
+		}
+		#c
+		{
+			margin-left: 405px;
+			
+		}
+		#d
+		{
+			margin-left: 405px;
+			
+		}
+		#e
+		{
+			margin-left: 405px;
+			
+		}
+		#f
+		{
+			margin-left: 405px;
+			
+		}
+
+	</style>
+</head>
+<body>
+<form>
+     <div align="center" style="height:30px">
+	<h2>student Registeration form</h2>
+	</div>
+<div style="background-color: lightblue;">
+	<div >
+	      <div > name</div><div><input type="text" name="text" size="60" id="a">
+	       <label id="err1" style="color: red;"></label></div>
+	</div>
+     <div >
+	      <div > personel address</div><div><input type="text" name="text" size="60" id="b">
+	      <label id="err2" style="color: red;"></label></div>
+    </div>
+	<div>
+	      <div >Emailid</div><div><input type="text" name="h" size="60" id="c" >
+	       <label id="err3" style="color: red;"></label></div>
+	</div>
+	<div>
+	      <div >mobileno</div><div><input type="text" name="h" size="60" id="d">
+	       <label id="err4" style="color: red;"></label></div>
+	</div>
+	<div>
+	      <div >password</div><div><input type="text" name="h" size="60" id="e">
+	       <label id="err5" style="color: red;"></label><br></div>
+	</div>
+	<div>
+	       <div >confirm password</div><div><input type="text" name="h" size="60" id="f" >
+	       <label id="err6" style="color: red;"></label>
+	</div>
+	</div>
+	<div align="center">
+		<input type="button" value="submit form" onclick="fa();">
+	</div>
+ </div>
+
+
+</form>
+
+</body>
+</html>
